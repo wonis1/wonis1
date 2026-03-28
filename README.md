@@ -67,7 +67,7 @@ Markdown 문서와 화면 코드를 분리해 콘텐츠 수정 비용을 낮춘 
 
 ---
 
-### 기술 키워드
+### 기술
 
 React, TypeScript, JavaScript, HTML, CSS, TanStack Query, Zustand, Supabase, REST API
 
