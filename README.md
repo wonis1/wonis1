@@ -1,38 +1,50 @@
+# 정재원 | Frontend Developer
 
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+웹 프론트엔드 개발을 중심으로, 실서비스 운영과 API 연동, 이슈 대응 경험을 쌓아온 개발자입니다.  
+사용자 화면 구현에 그치지 않고, 서비스 흐름을 이해하고 문제를 정리해 해결하는 과정에 강점이 있습니다.
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_ID&show_icons=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_ID&layout=compact)
+## About Me
+- React, TypeScript, JavaScript 기반의 웹 프론트엔드 개발을 중심으로 공부하고 있습니다.
+- 실무에서는 챗봇·콜봇 운영, 프론트 화면 수정, API 연동, 고객사 대응, 문서화 업무를 경험했습니다.
+- 운영 중 발생하는 이슈를 재현하고 원인 구간을 정리해 전달하는 방식에 익숙합니다.
+- 짧은 일정 안에서 인증, 상태관리, 라우팅, 데이터 흐름을 연결하는 프로젝트를 직접 설계하고 구현해봤습니다.
 
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=YOUR_BOJ_ID)](https://solved.ac/YOUR_BOJ_ID)
+## Tech Stack
+### Frontend
+React, TypeScript, JavaScript, HTML, CSS
 
-## Experience
-- 💼 실서비스 운영 경력 2년 6개월
-- 🏦 금융권 챗봇·콜봇 프로젝트 3건
-- 🛠 운영 장애 대응 및 로그 기반 원인 분석
+### State & Data
+React Query, Zustand, Supabase
+
+### Backend / Infra
+Node.js, Spring Boot, Docker, Kubernetes
 
 ## Projects
-- 🟢 Coway Chatbot  
-  운영 유지보수 · 시나리오 개선 · 데이터 기반 대응  
-- 🟢 WooriCard Chatbot Rebuild  
-  프론트엔드 개발 · 상담 솔루션 연동  
-- 🟢 Mindwareworks Homepage  
-  React 기반 서비스/관리자 페이지 분리
+### Recall
+동창생을 찾는 인증 기반 웹 서비스입니다.  
+세션 기반 인증, 전역 상태관리, 학교 검색, 프로필 수정, 라우팅 구조를 중심으로 프론트엔드를 주도했습니다.
 
-## Currently Learning
-- Spring Boot (REST API, JPA)
-- Algorithms (Baekjoon)
-- CS Basics (Network, DB, OS)
+### Portfolio
+프로젝트, 경력, 기술을 구조화해 보여주는 개인 포트폴리오 웹앱입니다.  
+Markdown 기반 상세 페이지와 데이터 중심 구성을 적용했습니다.
 
-## Engineering Basics
-- Git Flow 기반 협업
-- 로그 중심 디버깅
-- 이슈 재현 문서화
-- 운영 가이드 작성
+### Amazon Price Alert
+상품 가격 변동을 추적하고 알림 흐름을 다루는 프로젝트입니다.  
+실제 서비스 흐름을 고려해 화면과 데이터 구조를 구성했습니다.
 
-📧 Email: wjdwo2808@gmail.com  
-🔗 Portfolio / Resume: (링크)
+## Experience
+### MindWareWorks / MindWareService
+- 챗봇·콜봇 구축 및 운영
+- 프론트엔드 화면 수정 및 API 연동
+- 운영 이슈 분석 및 고객사 커뮤니케이션
+- 문서화 및 교육 지원
+
+## Links
+- Portfolio: 포트폴리오 주소 넣기
+- Career Portfolio: career-portfolio 링크 넣기
+- Recall Frontend: recall 레포 링크 넣기
+- Email: 이메일 주소 넣기
+
+## Goal
+실서비스에서 바로 사용할 수 있는 프론트엔드 개발자가 되기 위해  
+구현 능력뿐 아니라 운영 이해, 문제 해결, 협업 역량까지 함께 다듬고 있습니다.
