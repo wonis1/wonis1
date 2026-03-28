@@ -1,48 +1,64 @@
-## 정재원 | Frontend Developer
+# 정재원 | Frontend Developer
 
-웹 프론트엔드 개발을 중심으로, 실서비스 운영과 API 연동 경험을 쌓아온 개발자입니다.  
-화면 구현에 그치지 않고, 서비스 흐름을 이해하고 운영 이슈를 정리해 해결하는 데 강점이 있습니다.
+React/TypeScript 기반으로 인증 흐름, API 연동, 운영 이슈 대응을 경험한 프론트엔드 개발자입니다.  
+실서비스에서 화면 수정부터 로그 기반 원인 파악까지 맡으며, 사용 흐름이 끊기는 지점을 직접 다뤘습니다.
 
-### Strength
-- React 기반 웹 서비스 개발 경험
-- 실서비스 운영 환경에서 API 연동과 이슈 대응 경험
-- 요구사항 변경, 고객사 커뮤니케이션, 문서화까지 포함한 협업 경험
+[포트폴리오](https://aes-portfolio-app.vercel.app/#about) | [GitHub](https://github.com/wonis1) | [이메일](mailto:wjdwo2808@gmail.com)
+<!-- 공개 가능한 이력서 URL이 생기면 여기 추가 -->
 
-### Tech Stack
-**Frontend**  
-React, TypeScript, JavaScript, HTML, CSS
+---
 
-**State & Data**  
-React Query, Zustand, Supabase
+## 대표 프로젝트
 
-**Backend / Infra**  
-Node.js, Spring Boot, Docker, Kubernetes
+### RE:CALL
+<p align="center">
+  <img src="./assets/recall-thumbnail.png" alt="RE:CALL login page thumbnail" width="720" />
+</p>
 
-**Learning**  
-Kotlin, Android
+학교 등록 여부와 로그인 상태에 따라 화면과 접근 경로가 크게 갈리는 서비스라서, 인증과 상태 흐름 정리가 핵심이었습니다.
 
-### Projects
-- **Recall**  
-  세션 기반 인증, 상태관리, 라우팅 구조를 적용한 동창생 탐색 서비스
+- 문제: 로그인 상태, 학교 등록 여부, 선택 학교에 따라 화면 분기와 접근 경로가 달라지는 구조
+- 역할: React Query, Zustand, React Router 기반 프론트엔드 구현. 쿠키 포함 요청, XSRF 토큰 헤더 처리, 학교 검색 디바운스 적용
+- 결과: 인증/등록 상태 기준의 화면 분기 구조를 정리했고, 검색 입력마다 발생하는 불필요한 조회를 줄이는 흐름으로 정리
+- 기술: React, TypeScript, TanStack Query, Zustand, React Router, Vite, CSS Module
+- 링크: [저장소](https://github.com/sw-2-2/recall-frontend) | [데모](https://recallhub.vercel.app/login?redirect=%2F)
 
-- **Portfolio**  
-  프로젝트, 경력, 기술을 구조화해 보여주는 개인 포트폴리오 웹앱
+### AES Portfolio App
+<p align="center">
+  <img src="./assets/aes-portfolio-thumbnail.png" alt="AES Portfolio App projects section thumbnail" width="720" />
+</p>
 
-- **Amazon Price Alert**  
-  가격 추적 흐름과 데이터 연동을 다룬 앱 프로젝트
+프로젝트와 경력 상세를 계속 추가해야 해서, 정적인 소개 페이지보다 유지보수 가능한 정보 구조가 필요했습니다.
 
-### Experience
-**MindWareWorks / MindWareService**  
-챗봇·콜봇 구축 및 운영, 프론트 화면 수정, API 연동, 운영 이슈 분석, 고객사 대응, 문서화 업무를 경험했습니다.  
-실서비스 환경에서 문제를 재현하고 원인 구간을 정리해 전달하는 방식에 익숙합니다.
+- 문제: 프로젝트, 경력, 상세 문서를 한 번에 보여주면서도 수정과 확장이 쉬운 구조 필요
+- 역할: 프로젝트 목록/상세, Markdown 렌더링, 댓글 CRUD, 배포 구현
+- 결과: 데이터와 상세 문서를 분리한 구조로 정리했고, 단순 소개 페이지보다 읽을 거리와 관리성을 높인 포트폴리오 앱으로 구성
+- 기술: React, TypeScript, Vite, React Router, TanStack Query, Supabase
+- 링크: [저장소](https://github.com/wonis1/AES-portfolio-app) | [데모](https://aes-portfolio-app.vercel.app/#about)
 
-### Education
-- 현대오토에버 모빌리티 SW 스쿨 3기 웹앱반 수강 중
-- 웹 프론트엔드, 상태관리, 인증, API 연동, 협업 프로젝트 중심으로 학습 중
+---
 
-### Interests
-웹 프론트엔드를 중심으로 경험을 쌓고 있으며, 최근에는 Kotlin과 Android도 함께 공부하고 있습니다.
+## 왜 나인가
 
-### Links
-- Portfolio: https://aes-portfolio-app.vercel.app/#about
-- Email: wjdwo2808@gmail.com
+- 운영 환경 경험: 화면만 만드는 수준에서 끝나지 않고, 실제 장애와 요청 변경이 생기는 지점까지 다뤘습니다.
+- 인증 / API 연동: 쿠키 기반 인증 흐름, XSRF 처리, API 연동 상태를 화면과 연결해 구현했습니다.
+- 협업 / 문서화: 고객 요구사항 정리, 연동 문서 작성, 내부 개발 조직과 조율 경험이 있습니다.
+
+---
+
+## 경력 요약
+
+### MindWareService | 솔루션 엔지니어
+2023.03 - 2025.08
+
+- 챗봇·콜봇 운영 환경에서 프론트 화면 수정, API 연동, 시나리오 변경, 장애 대응 수행
+- 고객사 요구사항을 정리해 개발 조직과 조율하고, 운영 가이드와 연동 문서를 작성
+- 우리카드, 코웨이, MindWareWorks 홈페이지 재구축 등에서 서비스 흐름과 운영 이슈 대응 경험 축적
+
+---
+
+## 키워드
+
+React, TypeScript, JavaScript, HTML, CSS, TanStack Query, Zustand, Supabase, REST API  
+선문대학교 산업경영공학과 | 현대오토에버 모빌리티 SW 스쿨 3기 2026.06 수료 예정  
+Frontend 포지션 지원 중
