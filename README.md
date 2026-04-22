@@ -5,7 +5,7 @@
 
 <sub>운영 이슈 대응 · 커뮤니케이션 · 리더십</sub>
 
-[포트폴리오 웹앱](https://aes-portfolio-app.vercel.app/#about) | [GitHub](https://github.com/wonis1) | [wjdwo2808@gmail.com](mailto:wjdwo2808@gmail.com)
+[포트폴리오 웹앱](https://aes-portfolio-app.vercel.app/) | [wjdwo2808@gmail.com](mailto:wjdwo2808@gmail.com)
 
 ---
 
